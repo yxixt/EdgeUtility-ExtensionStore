@@ -1,0 +1,7 @@
+*.edgeext
+*.pfx
+*.p12
+*.key
+.env
+.env.*
+!.env.example
