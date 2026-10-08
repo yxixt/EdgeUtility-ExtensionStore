@@ -4,7 +4,7 @@
 
 ## 現在の状態
 
-このリポジトリは配布場所として準備中です。まだ署名済みfeed・拡張パッケージは公開していません。署名のないプレースホルダーfeedはEdgeUtilityで検証に失敗するため、登録しません。
+QR Generator 1.0.0を公開しています。x64 / ARM64用の署名済み`.edgeext`はGitHub Releasesに置き、署名済み`extension-feed.json`からSHA-256付きで参照します。拡張ソースはPrivateリポジトリで管理し、この公開リポジトリには含めません。
 
 ## 配布ルール
 
@@ -16,10 +16,14 @@
 
 ## feed URL
 
-署名済み `extension-feed.json` を追加した後に公開するRaw URLは以下の形式です。
+署名済みfeedのRaw URLは以下です。
 
 `https://raw.githubusercontent.com/yxixt/EdgeUtility-ExtensionStore/main/extension-feed.json`
 
-現行アプリは公開feed URLを自動読込せず、Extension Managerの「ローカル」からユーザーがfeedファイルを選ぶ方式です。URLの自動接続を追加する場合は本体側の実装変更が必要です。
+対応するEdgeUtilityでは、Paletteで「Extension Store」を開き、Store画面で拡張を検索できます。取得後は署名・SHA-256・manifestを検証し、権限確認とHost健康確認を経て利用を許可します。アンインストールはStore管理画面の「インストール済み」から行えます。
 
-feed署名鍵の利用手順が確定するまでは、拡張パッケージやfeedを公開しません。鍵はGitHubやこのリポジトリへアップロードしません。
+## 公開済み拡張
+
+- **QR Generator 1.0.0** — URLやテキストからローカルでQRを生成し、PNG/SVGのコピー・保存に対応。要求機能は`commands`、`detail`、`forms`、`image-preview`、`clipboard.read`、`clipboard.write`、`file.save`です。
+
+パッケージとfeedはEdgeUtilityの固定公開者証明書で署名しています。署名用秘密鍵、PFX/P12、トークン、個人情報はこの公開リポジトリやGitHub Releasesに置きません。
