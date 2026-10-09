@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "publisher": "EdgeUtility",
-  "generatedAtUtc": "2026-10-09T04:31:40.5561126+00:00",
+  "generatedAtUtc": "2026-10-09T08:22:43.3418842+00:00",
   "extensions": [
     {
       "id": "edgeutility.killprocess",
       "name": "Kill Process",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "publisher": "EdgeUtility",
       "description": "Palette\u5185\u3067\u73FE\u5728\u306E\u30E6\u30FC\u30B6\u30FC\u306E\u30D7\u30ED\u30BB\u30B9\u3092\u691C\u7D22\u3057\u3001CPU\u30FB\u30E1\u30E2\u30EA\u30FB\u540D\u524D\u3067\u4E26\u3079\u66FF\u3048\u3001\u8A73\u7D30\u78BA\u8A8D\u5F8C\u306B\u7D42\u4E86\u3092\u8981\u6C42\u3057\u307E\u3059\u3002",
       "minHostVersion": "1.0.0.518",
@@ -21,13 +21,13 @@
       "packages": [
         {
           "runtimeIdentifier": "win-x64",
-          "packageUrl": "https://github.com/yxixt/EdgeUtility-ExtensionStore/releases/download/v1.0.0/KillProcess-1.0.0-win-x64.edgeext",
-          "packageSha256": "E9B7DDAD48CCE4908F14A24F6EE2A6EEAC51D1623FBE534824FCD50D7C17F06C"
+          "packageUrl": "https://github.com/yxixt/EdgeUtility-ExtensionStore/releases/download/v1.0.1/KillProcess-1.0.1-win-x64.edgeext",
+          "packageSha256": "4CFA2ABD5F40A6465EC5DFA8565F21C53C49D560BE0E9B4EE7BB14490529CEC2"
         },
         {
           "runtimeIdentifier": "win-arm64",
-          "packageUrl": "https://github.com/yxixt/EdgeUtility-ExtensionStore/releases/download/v1.0.0/KillProcess-1.0.0-win-arm64.edgeext",
-          "packageSha256": "D235B65847E3BE24C47B1199A0B614F2DC3F8F91B8C778CF7463F282CC0592B7"
+          "packageUrl": "https://github.com/yxixt/EdgeUtility-ExtensionStore/releases/download/v1.0.1/KillProcess-1.0.1-win-arm64.edgeext",
+          "packageSha256": "731713AAA1AB1A35F8A1DF1DDA30DF1532BEEECDF945E1DD2C0E5779145EC836"
         }
       ],
       "featured": true
@@ -94,5 +94,5 @@
     }
   ],
   "signatureAlgorithm": "RSA-SHA256-PKCS1",
-  "signature": "Lj4ADPeNsKFFF5v5gZtoDZ4OqnWB0t5GMTMc0qlQtK4mhldDU6OxhQ9SdzSZ2acOOHOYe3vbEDPt3CvxjkMMEhSYZGdyy/RVXIve0c/Y\u002BHRH8GbMKbctXANAG8lgWjFBxwr/GIA9PbEwHRvBL9G17q9G3KQq9HGH9xGoV0cuIYSCfU\u002BG5xPW7FCAkAE41QftCezQL4JdtCEEq4jSqOJBZcv74qF4PW99DNWdezqrK9I/AmsTvdqjjQyTHfElvhiUHtz9b0BE5ioeq8vUjke9X9tGuJ8yz3D75QgO9MIftFCG2tFXkWneGseoBV0Fqb9S4cf1mBCccWhOimcCg4qV2A=="
+  "signature": "cLVC6Al8xZw8xt4XIjXXZ6jUO9eN12MUAa51UToCpMqkBHTobBtU97y5b9MQpwHXDnqVYPGpRQak0lB0F5fqO2B6bLgvqeRHSEuSlfYTK/xgi\u002Bk04rZGDItOnps47ZrtXB65NeOsMvVOGXOTB2FWcGDGL8QAvl9WNr/vyr7Uj7hfawbnX6fdfbo9bWBy\u002BrdbEOvoRxhTLXcVdDxNvhgBmIeZZa/V\u002B/LxGlnMXlPJqzAA9QldjsGhO9A1h2KfR2\u002BfHZBwaDjZQBdmFdvwUHVHm1sse9J\u002B8mIgi4uvTeUfpD7iBWmcO1o3v0A6InK9wAak6oRWOH30\u002BxPA2AkKtIYanQ=="
 }
